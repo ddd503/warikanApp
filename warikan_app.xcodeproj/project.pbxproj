@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454A30C4208C81900078BCEB /* UIFont+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A30C3208C81900078BCEB /* UIFont+Size.swift */; };
+		454A30C6208C848E0078BCEB /* Deform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A30C5208C848E0078BCEB /* Deform.swift */; };
+		454A30C8208C890B0078BCEB /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A30C7208C890B0078BCEB /* Calculation.swift */; };
 		457865731F22FB27007BE64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457865721F22FB27007BE64B /* AppDelegate.swift */; };
-		457865751F22FB27007BE64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457865741F22FB27007BE64B /* ViewController.swift */; };
 		457865781F22FB27007BE64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457865761F22FB27007BE64B /* Main.storyboard */; };
-		4578657B1F22FB27007BE64B /* warikan_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 457865791F22FB27007BE64B /* warikan_app.xcdatamodeld */; };
 		4578657D1F22FB27007BE64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4578657C1F22FB27007BE64B /* Assets.xcassets */; };
 		457865801F22FB27007BE64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4578657E1F22FB27007BE64B /* LaunchScreen.storyboard */; };
-		4578658B1F22FB27007BE64B /* warikan_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578658A1F22FB27007BE64B /* warikan_appTests.swift */; };
-		457865961F22FB27007BE64B /* warikan_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457865951F22FB27007BE64B /* warikan_appUITests.swift */; };
+		457865A41F231D0D007BE64B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457865A31F231D0D007BE64B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454A30C3208C81900078BCEB /* UIFont+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Size.swift"; sourceTree = "<group>"; };
+		454A30C5208C848E0078BCEB /* Deform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deform.swift; sourceTree = "<group>"; };
+		454A30C7208C890B0078BCEB /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
 		4578656F1F22FB27007BE64B /* warikan_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warikan_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		457865721F22FB27007BE64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		457865741F22FB27007BE64B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		457865771F22FB27007BE64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4578657A1F22FB27007BE64B /* warikan_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = warikan_app.xcdatamodel; sourceTree = "<group>"; };
 		4578657C1F22FB27007BE64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4578657F1F22FB27007BE64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		457865811F22FB27007BE64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457865861F22FB27007BE64B /* warikan_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warikan_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4578658A1F22FB27007BE64B /* warikan_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warikan_appTests.swift; sourceTree = "<group>"; };
-		4578658C1F22FB27007BE64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457865911F22FB27007BE64B /* warikan_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warikan_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		457865951F22FB27007BE64B /* warikan_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warikan_appUITests.swift; sourceTree = "<group>"; };
-		457865971F22FB27007BE64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457865A31F231D0D007BE64B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		457865A51F23330D007BE64B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		457865A61F23330D007BE64B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		454A30C0208C810C0078BCEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				457865761F22FB27007BE64B /* Main.storyboard */,
+				457865A31F231D0D007BE64B /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		454A30C1208C81180078BCEB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				454A30C3208C81900078BCEB /* UIFont+Size.swift */,
+				454A30C5208C848E0078BCEB /* Deform.swift */,
+				454A30C7208C890B0078BCEB /* Calculation.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		454A30C2208C81250078BCEB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				457865721F22FB27007BE64B /* AppDelegate.swift */,
+				4578657C1F22FB27007BE64B /* Assets.xcassets */,
+				4578657E1F22FB27007BE64B /* LaunchScreen.storyboard */,
+				457865811F22FB27007BE64B /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		457865661F22FB26007BE64B = {
 			isa = PBXGroup;
 			children = (
 				457865711F22FB27007BE64B /* warikan_app */,
-				457865891F22FB27007BE64B /* warikan_appTests */,
-				457865941F22FB27007BE64B /* warikan_appUITests */,
 				457865701F22FB27007BE64B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +127,11 @@
 		457865711F22FB27007BE64B /* warikan_app */ = {
 			isa = PBXGroup;
 			children = (
-				457865721F22FB27007BE64B /* AppDelegate.swift */,
-				457865741F22FB27007BE64B /* ViewController.swift */,
-				457865761F22FB27007BE64B /* Main.storyboard */,
-				4578657C1F22FB27007BE64B /* Assets.xcassets */,
-				4578657E1F22FB27007BE64B /* LaunchScreen.storyboard */,
-				457865811F22FB27007BE64B /* Info.plist */,
-				457865791F22FB27007BE64B /* warikan_app.xcdatamodeld */,
+				454A30C0208C810C0078BCEB /* Controller */,
+				454A30C1208C81180078BCEB /* Helper */,
+				454A30C2208C81250078BCEB /* Other */,
 			);
 			path = warikan_app;
-			sourceTree = "<group>";
-		};
-		457865891F22FB27007BE64B /* warikan_appTests */ = {
-			isa = PBXGroup;
-			children = (
-				4578658A1F22FB27007BE64B /* warikan_appTests.swift */,
-				4578658C1F22FB27007BE64B /* Info.plist */,
-			);
-			path = warikan_appTests;
-			sourceTree = "<group>";
-		};
-		457865941F22FB27007BE64B /* warikan_appUITests */ = {
-			isa = PBXGroup;
-			children = (
-				457865951F22FB27007BE64B /* warikan_appUITests.swift */,
-				457865971F22FB27007BE64B /* Info.plist */,
-			);
-			path = warikan_appUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +197,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "dai kawahara";
 				TargetAttributes = {
 					4578656E1F22FB27007BE64B = {
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457865751F22FB27007BE64B /* ViewController.swift in Sources */,
+				454A30C6208C848E0078BCEB /* Deform.swift in Sources */,
 				457865731F22FB27007BE64B /* AppDelegate.swift in Sources */,
-				4578657B1F22FB27007BE64B /* warikan_app.xcdatamodeld in Sources */,
+				457865A41F231D0D007BE64B /* MainViewController.swift in Sources */,
+				454A30C4208C81900078BCEB /* UIFont+Size.swift in Sources */,
+				454A30C8208C890B0078BCEB /* Calculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4578658B1F22FB27007BE64B /* warikan_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457865961F22FB27007BE64B /* warikan_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				457865771F22FB27007BE64B /* Base */,
+				457865A51F23330D007BE64B /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -315,6 +322,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4578657F1F22FB27007BE64B /* Base */,
+				457865A61F23330D007BE64B /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -326,21 +334,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -363,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -376,21 +393,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -407,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -420,11 +446,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LVR5UQEHBD;
-				INFOPLIST_FILE = warikan_app/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/warikan_app/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kawaharadai.warikan-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -433,11 +461,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LVR5UQEHBD;
-				INFOPLIST_FILE = warikan_app/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/warikan_app/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kawaharadai.warikan-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +548,7 @@
 				4578659C1F22FB27007BE64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4578659D1F22FB27007BE64B /* Build configuration list for PBXNativeTarget "warikan_appTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +557,7 @@
 				4578659F1F22FB27007BE64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		457865A01F22FB27007BE64B /* Build configuration list for PBXNativeTarget "warikan_appUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,21 +566,9 @@
 				457865A21F22FB27007BE64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		457865791F22FB27007BE64B /* warikan_app.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4578657A1F22FB27007BE64B /* warikan_app.xcdatamodel */,
-			);
-			currentVersion = 4578657A1F22FB27007BE64B /* warikan_app.xcdatamodel */;
-			path = warikan_app.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 457865671F22FB26007BE64B /* Project object */;
 }

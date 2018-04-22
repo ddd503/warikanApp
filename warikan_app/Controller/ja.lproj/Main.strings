@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "人"; ObjectID = "KDt-RC-yqv"; */
+"KDt-RC-yqv.text" = "人";
+
+/* Class = "UILabel"; text = "円"; ObjectID = "VVX-s2-haX"; */
+"VVX-s2-haX.text" = "円";
+
+/* Class = "UILabel"; text = "合計金額"; ObjectID = "cNc-ok-hbx"; */
+"cNc-ok-hbx.text" = "合計金額";
+
+/* Class = "UILabel"; text = "なし"; ObjectID = "ckj-DB-3TW"; */
+"ckj-DB-3TW.text" = "なし";
+
+/* Class = "UIButton"; normalTitle = "割り勘"; ObjectID = "ef1-db-HAv"; */
+"ef1-db-HAv.normalTitle" = "割り勘";
+
+/* Class = "UIButton"; normalTitle = "リセット"; ObjectID = "qID-Be-UZx"; */
+"qID-Be-UZx.normalTitle" = "リセット";
+
+/* Class = "UILabel"; text = "計算結果"; ObjectID = "smc-c2-Zon"; */
+"smc-c2-Zon.text" = "計算結果";
+
+/* Class = "UILabel"; text = "人数"; ObjectID = "yM1-sD-cVI"; */
+"yM1-sD-cVI.text" = "人数";
